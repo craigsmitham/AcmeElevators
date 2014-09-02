@@ -7,12 +7,13 @@
 * We can clean up the interface and method calls to make them more intention reavealing
 * The status query does not give the ability to specify an elevator ID, or it assumes we'll only be querying one elevator. This is confusing. 
 
-## First Steps (planned)
+## First Steps 
 
 * Clean up interface to make it more idiomatic C#
 * Split control system interface into public and internal API methods
 * Add an elevator ID status to the status query
 
-## First Steps (actual)
+## Initial Implementation
 
-*
+I will implemenent a naive FirstComeFirstServeElevatorControlSystem to get something functional, testable, then improve from there.
+
