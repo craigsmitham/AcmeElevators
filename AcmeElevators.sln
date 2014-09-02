@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeElevators", "src\AcmeElevators\AcmeElevators.csproj", "{F2747E69-DFCB-4EBE-BBA3-3E5CB88E81EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeElevators.Cli", "src\AcmeElevators.Cli\AcmeElevators.Cli.csproj", "{86543EBE-402D-4162-A496-445CE94852D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43B149BB-3D61-473F-9591-BE82AA1D3FBE}"
@@ -18,10 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F2747E69-DFCB-4EBE-BBA3-3E5CB88E81EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2747E69-DFCB-4EBE-BBA3-3E5CB88E81EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2747E69-DFCB-4EBE-BBA3-3E5CB88E81EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2747E69-DFCB-4EBE-BBA3-3E5CB88E81EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86543EBE-402D-4162-A496-445CE94852D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86543EBE-402D-4162-A496-445CE94852D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86543EBE-402D-4162-A496-445CE94852D5}.Release|Any CPU.ActiveCfg = Release|Any CPU

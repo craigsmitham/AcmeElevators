@@ -43,15 +43,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ElevatorControlSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AcmeElevators\AcmeElevators.csproj">
-      <Project>{f2747e69-dfcb-4ebe-bba3-3e5cb88e81ea}</Project>
-      <Name>AcmeElevators</Name>
-    </ProjectReference>
+    <Folder Include="v2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
