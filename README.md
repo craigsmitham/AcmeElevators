@@ -1,3 +1,11 @@
+# Read This First
+
+The git repositroy at https://github.com/craigsmitham/AcmeElevators contains the history and evolution of the code that was used to create the solution, but the final solution can be found at https://dotnetfiddle.net/UwHreh.
+
+## Running the solution
+
+Simply use .NET fiddle to run the final solution at https://dotnetfiddle.net/UwHreh. However, you can still download the repo from GitHub and run it using Visual Studio.
+
 # Development Log
 
 ## Intial Design Observations
@@ -23,4 +31,10 @@ After getting a little farther than halfway, the interface of the program was bo
 
 https://github.com/craigsmitham/AcmeElevators/commit/5ebf1ef47287bd89dd15ca89f613f5e71222e571
 
+# Final Solution Complete
 
+* Complete with 10 minutes to spare. Final solution posted at https://dotnetfiddle.net/UwHreh
+
+# Next Steps
+
+* It would be cool to have some visualizations/reports to see what is going on for some feedback about possible strategies. In addition, some tests to prove correctness and better error handling would be expected for a more robust solution. Likely the needs of the reports/GUI and tests would drive a better interface design.
