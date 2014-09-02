@@ -1,6 +1,6 @@
 ﻿namespace AcmeElevators
 {
-    public interface IElevatorControlSystem : IPublicElevatorControls, IInternalElevatorControls { }
+    public interface IElevatorControlSystemV1 : IPublicElevatorControls, IInternalElevatorControls { }
 
     public interface IPublicElevatorControls
     {

@@ -39,9 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstComeFirstServeElevatorControlSystem.cs" />
-    <Compile Include="IElevatorControlSystem.cs" />
+    <Compile Include="v1\FirstComeFirstServeElevatorControlSystemV1.cs" />
+    <Compile Include="v1\IElevatorControlSystemV1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v2\ElevatorControlSystem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

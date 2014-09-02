@@ -17,3 +17,10 @@
 
 I will implemenent a naive FirstComeFirstServeElevatorControlSystem to get something functional, testable, then improve from there.
 
+## Halfway
+
+After getting a little farther than halfway, the interface of the program was bothering me even more and constricting some design decisions. So, I decided to start a fresh with a new interface, having thought more about the problem at hand. I will attempt to design a smart implementation, instead of naive one. In some cases it was harder thinking about building the First-Come-First-Serve implementation.
+
+https://github.com/craigsmitham/AcmeElevators/commit/5ebf1ef47287bd89dd15ca89f613f5e71222e571
+
+

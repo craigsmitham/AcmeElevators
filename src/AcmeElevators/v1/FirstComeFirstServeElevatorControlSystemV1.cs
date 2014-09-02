@@ -4,14 +4,14 @@ using System.Linq;
 
 namespace AcmeElevators
 {
-    public class FirstComeFirstServeElevatorControlSystem : IElevatorControlSystem
+    public class FirstComeFirstServeElevatorControlSystemV1 : IElevatorControlSystemV1
     {
         private readonly int _numberOfFloors;
         private List<Rider> _requests = new List<Rider>();
         private readonly Dictionary<int, Queue<Rider>> _elevatorDestinations = new Dictionary<int, Queue<Rider>>();
         private List<Elevator> _elevators;
 
-        public FirstComeFirstServeElevatorControlSystem(int numberOfElevators, int numberOfFloors)
+        public FirstComeFirstServeElevatorControlSystemV1(int numberOfElevators, int numberOfFloors)
         {
             _elevators = Enumerable.Range(1, numberOfElevators)
                 .Select(elevatorId => new Elevator
@@ -134,6 +134,7 @@ namespace AcmeElevators
             }
 
             public Guid Id { get; private set; }
+            public int OriginatingFloor { get; set; }
             public int RequestedFloorNumber { get; set; }
             public Direction Direction { get; set; }
         }
